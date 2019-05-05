@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Introduction · GitBook</title>
+        <title>Callable、Future和FutureTask · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -58,6 +58,8 @@
 
     
     
+    <link rel="prev" href="线程.html" />
+    
 
     </head>
     <body>
@@ -85,7 +87,7 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="./">
             
                 <a href="./">
             
@@ -441,7 +443,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6.2" data-path="Callable_Future_FutureTask.html">
+        <li class="chapter active" data-level="1.6.2" data-path="Callable_Future_FutureTask.html">
             
                 <a href="Callable_Future_FutureTask.html">
             
@@ -489,7 +491,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Introduction</a>
+        <a href="." >Callable、Future和FutureTask</a>
     </h1>
 </div>
 
@@ -504,8 +506,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x70C2;&#x7B14;&#x5934;">&#x70C2;&#x7B14;&#x5934;</h1>
-<p>&#x5B66;&#x4E60;&#x5FC3;&#x5F97;&#x8BB0;&#x5F55;&#xFF01;   &#x2570;(&#xFFE3;&#x25BD;&#xFFE3;)&#x256E;    &#x2196;(^&#x3C9;^)&#x2197;</p>
+                                <h2 id="callable&#x3001;future&#x548C;futuretask">Callable&#x3001;Future&#x548C;FutureTask</h2>
 
                                 
                                 </section>
@@ -533,6 +534,10 @@
 
             
                 
+                <a href="线程.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 线程">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
                 
             
         
@@ -541,7 +546,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"面向对象","level":"1.2","depth":1,"ref":"","articles":[{"title":"什么是面向对象","level":"1.2.1","depth":2,"path":"oop/面向对象相关概念.md","ref":"oop/面向对象相关概念.md","articles":[]},{"title":"Java平台无关性","level":"1.2.2","depth":2,"path":"oop/Java平台无关性.md","ref":"oop/Java平台无关性.md","articles":[]},{"title":"值传递、引用传递","level":"1.2.3","depth":2,"path":"oop/值-引用传递.md","ref":"oop/值-引用传递.md","articles":[]},{"title":"封装、继承、多态","level":"1.2.4","depth":2,"path":"oop/封装继承多态.md","ref":"oop/封装继承多态.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2019-04-29T03:19:20.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-05-05T12:22:42.400Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Callable、Future和FutureTask","level":"1.6.2","depth":2,"previous":{"title":"线程","level":"1.6.1","depth":2,"path":"线程.md","ref":"线程.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Callable_Future_FutureTask.md","mtime":"2019-05-05T09:04:44.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-05-05T12:22:42.400Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
