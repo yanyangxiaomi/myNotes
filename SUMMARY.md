@@ -18,12 +18,17 @@
     * [序列化](java_base/serializable.md)
     * [注解](java_base/annotation.md)
     * [Lambda](java_base/lambda.md)
+* 多线程与高并发
+    * [线程](multi_thread/线程.md)
+    * [Callable、Future和FutureTask](multi_thread/Callable_Future_FutureTask.md)
+* 虚拟机
+    * [Java内存模型](jvm/Java内存模型.md)
 * 数据库知识
     * [数据库索引](data_base/数据库索引.md)
-    * 数据库优化
+    * [数据库优化](data_base/数据库优化.md)
+* 设计模式
+    * [单例模式](design_pattern/单例模式.md)
+    * 代理模式
 * 数据结构
     * [红黑树](data_structure/red_black _tree.md)
-* 多线程与高并发
-    * [线程](线程.md)
-    * [Callable、Future和FutureTask](Callable_Future_FutureTask.md)
 

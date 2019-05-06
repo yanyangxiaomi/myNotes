@@ -346,7 +346,7 @@
                 <span>
             
                     
-                    数据库知识
+                    多线程与高并发
             
                 </span>
             
@@ -355,12 +355,12 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.1" data-path="../data_base/数据库索引.html">
+        <li class="chapter " data-level="1.4.1" data-path="../multi_thread/线程.html">
             
-                <a href="../data_base/数据库索引.html">
+                <a href="../multi_thread/线程.html">
             
                     
-                    数据库索引
+                    线程
             
                 </a>
             
@@ -368,14 +368,14 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.2" >
+        <li class="chapter " data-level="1.4.2" data-path="../multi_thread/Callable_Future_FutureTask.html">
             
-                <span>
+                <a href="../multi_thread/Callable_Future_FutureTask.html">
             
                     
-                    数据库优化
+                    Callable、Future和FutureTask
             
-                </span>
+                </a>
             
 
             
@@ -391,7 +391,7 @@
                 <span>
             
                     
-                    数据结构
+                    虚拟机
             
                 </span>
             
@@ -400,12 +400,12 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.5.1" data-path="../data_structure/red_black _tree.html">
+        <li class="chapter " data-level="1.5.1" data-path="../jvm/Java内存模型.html">
             
-                <a href="../data_structure/red_black _tree.html">
+                <a href="../jvm/Java内存模型.html">
             
                     
-                    红黑树
+                    Java内存模型
             
                 </a>
             
@@ -423,7 +423,7 @@
                 <span>
             
                     
-                    多线程与高并发
+                    数据库知识
             
                 </span>
             
@@ -432,12 +432,12 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.6.1" data-path="../线程.html">
+        <li class="chapter " data-level="1.6.1" data-path="../data_base/数据库索引.html">
             
-                <a href="../线程.html">
+                <a href="../data_base/数据库索引.html">
             
                     
-                    线程
+                    数据库索引
             
                 </a>
             
@@ -445,12 +445,89 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6.2" data-path="../Callable_Future_FutureTask.html">
+        <li class="chapter " data-level="1.6.2" data-path="../data_base/数据库优化.html">
             
-                <a href="../Callable_Future_FutureTask.html">
+                <a href="../data_base/数据库优化.html">
             
                     
-                    Callable、Future和FutureTask
+                    数据库优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    设计模式
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../design_pattern/单例模式.html">
+            
+                <a href="../design_pattern/单例模式.html">
+            
+                    
+                    单例模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" >
+            
+                <span>
+            
+                    
+                    代理模式
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <span>
+            
+                    
+                    数据结构
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../data_structure/red_black _tree.html">
+            
+                <a href="../data_structure/red_black _tree.html">
+            
+                    
+                    红黑树
             
                 </a>
             
@@ -508,7 +585,37 @@
     
                                 <section class="normal markdown-section">
                                 
-                                
+                                <h2 id="java-io">Java IO</h2>
+<p>Java IO&#x4E3B;&#x8981;&#x662F;&#x6307;Java&#x4E2D;&#x8F93;&#x5165;&#x3001;&#x8F93;&#x51FA;&#x64CD;&#x4F5C;&#x3002;Java&#x7684;IO&#x673A;&#x5236;&#x662F;&#x57FA;&#x4E8E;&#x6570;&#x636E;&#x6D41;&#x8FDB;&#x884C;&#x8F93;&#x5165;&#x8F93;&#x51FA;&#x7684;&#xFF0C;&#x6570;&#x636E;&#x6D41;&#x662F;&#x4E00;&#x7EC4;&#x6709;&#x5E8F;&#xFF0C;&#x6709;&#x8D77;&#x70B9;&#x548C;&#x7EC8;&#x70B9;&#x7684;&#x5B57;&#x8282;&#x6570;&#x636E;&#x5E8F;&#x5217;&#x3002;</p>
+<ul>
+<li><p>Java IO&#x7684;&#x7C7B;&#x578B;</p>
+<p>&#x6839;&#x636E;&#x6D41;&#x7684;&#x6D41;&#x5411;&#x53EF;&#x4EE5;&#x5206;&#x4E3A;&#x8F93;&#x5165;&#x6D41;&#x548C;&#x8F93;&#x51FA;&#x6D41;&#xFF0C;&#x6839;&#x636E;&#x5904;&#x7406;&#x5355;&#x4F4D;&#x53C8;&#x53EF;&#x4EE5;&#x5206;&#x4E3A;&#x5B57;&#x8282;&#x6D41;&#x548C;&#x5B57;&#x7B26;&#x6D41;&#x3002;</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">~</th>
+<th style="text-align:center">&#x5B57;&#x8282;&#x6D41;</th>
+<th style="text-align:center">&#x5B57;&#x7B26;&#x6D41;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">&#x8F93;&#x5165;&#x6D41;</td>
+<td style="text-align:center">InputStream</td>
+<td style="text-align:center">Reader</td>
+</tr>
+<tr>
+<td style="text-align:center">&#x8F93;&#x51FA;&#x6D41;</td>
+<td style="text-align:center">OutputStream</td>
+<td style="text-align:center">Writer</td>
+</tr>
+</tbody>
+</table>
+<p>  InputStream&#x3001;OutputStream&#x53CA;Reader&#x3001;Writer&#x7C7B;&#x662F;java.io&#x5305;&#x4E0B;&#x7684;&#x57FA;&#x7C7B;&#xFF0C;&#x5B9E;&#x9645;&#x5904;&#x7406;&#x6D41;&#x7684;&#x7C7B;&#x90FD;&#x662F;&#x7531;&#x8FD9;&#x56DB;&#x4E2A;&#x7C7B;&#x6D3E;&#x751F;&#x800C;&#x6765;&#x3002;
+  <img src="../image/16497232-59694dff24d1b298.png" alt="IO&#x4F53;&#x7CFB;"></p>
+
                                 
                                 </section>
                             
@@ -551,7 +658,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Java IO","level":"1.3.6","depth":2,"next":{"title":"序列化","level":"1.3.7","depth":2,"path":"java_base/serializable.md","ref":"java_base/serializable.md","articles":[]},"previous":{"title":"枚举","level":"1.3.5","depth":2,"path":"java_base/enum.md","ref":"java_base/enum.md","articles":[]},"dir":"neutral"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"java_base/java_io.md","mtime":"2019-04-29T06:09:32.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-05-05T12:22:42.400Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Java IO","level":"1.3.6","depth":2,"next":{"title":"序列化","level":"1.3.7","depth":2,"path":"java_base/serializable.md","ref":"java_base/serializable.md","articles":[]},"previous":{"title":"枚举","level":"1.3.5","depth":2,"path":"java_base/enum.md","ref":"java_base/enum.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"java_base/java_io.md","mtime":"2019-05-06T14:15:46.259Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-05-06T14:17:46.328Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
